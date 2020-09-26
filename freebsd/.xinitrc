@@ -4,9 +4,6 @@ setxkbmap -option caps:ctrl_modifier
 # Disable access control
 xhost +SI:localuser:$USER
 
-# Themes, etc
-# gnome-settings-daemon &
-
 # Fallback cursor
 xsetroot -cursor_name left_ptr
 
