@@ -36,12 +36,12 @@ pkg install lang/python3 # install pip somehow
 pkg install links
 pkg install mercurial
 pkg install miniupnpc
-pkg install mongodb
 pkg install nano
 pkg install net/py-miniupnpc
 pkg install npm
 pkg install qemu
 pkg install redshift
+pkg install ruby
 pkg install rxvt-unicode
 pkg install sbcl
 pkg install shells/fish
