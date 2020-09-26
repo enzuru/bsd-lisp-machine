@@ -1,0 +1,25 @@
+Xft.dpi: 69
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+xterm*font: -*-terminus-medium-*-*-*-*-160-*-*-*-*-*-u
+xterm*background: rgb:3F/3F/3F
+xterm*foreground: rgb:FF/FF/FF
+xterm*loginShell: true
+xterm*saveLines: 2000
+xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+xterm*termName: xterm-color
+xterm*eightBitInput: false
+xterm*scrollBar: false
+
+URxvt*foreground: #FFFFFF
+URxvt*background: #3F3F3F
+URxvt*scrollBar: #false
+URxvt*font: -*-terminus-medium-*-*-*-*-160-*-*-*-*-*-u
+URxvt*termName: rxvt
+URxvt.saveLines: 100000
+URxvt*buffered: true

@@ -1,0 +1,45 @@
+#!/bin/sh
+
+cd
+
+# Packages
+
+pkg_add automake
+pkg_add clisp
+pkg_add curl
+pkg_add emacs
+pkg_add fish
+pkg_add firefox
+pkg_add git
+pkg_add gnupg
+pkg_add htop
+pkg_add irssi
+pkg_add links
+pkg_add rxvt-unicode
+pkg_add pianobar
+pkg_add sbcl
+pkg_add sudo
+pkg_add the_silver_searcher
+pkg_add terminus-font
+pkg_add wget
+
+# Git repos
+
+sudo -i -u enzuru sh << EOF
+cd
+rm -rf .emacs.d/
+git clone --recurse-submodules -j8 git@github.com:enzuru/.emacs.d.git
+git clone git@github.com:enzuru/org.git
+git clone git@github.com:enzuru/bsd.git
+ln -s bsd/openbsd/.Xresources .Xresources
+ln -s bsd/openbsd/.xsession .xsession
+ln -s unix-configs/.Xresources .Xresources
+ln -s unix-configs/.xsession .xsession
+ln -s .emacs.d/folders folders
+chsh -s /usr/local/bin/fish enzuru
+git config --global user.name "Ahmed Khanzada"
+git config --global user.email "me@enzu.ru"
+git config --global core.editor "emacsclient"
+EOF
+
+# add enzuru to wheel and setup sudo

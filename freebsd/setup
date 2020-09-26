@@ -57,10 +57,22 @@ pkg install zip
 
 # Git repos
 
-git clone git@github.com:enzuru/.emacs.d.git
+sudo -i -u enzuru sh << EOF
+cd
+rm -rf .emacs.d/
+git clone --recurse-submodules -j8 git@github.com:enzuru/.emacs.d.git
+git clone git@github.com:enzuru/org.git
 git clone git@github.com:enzuru/bsd.git
 ln -s bsd/freebsd/.Xresources .Xresources
 ln -s bsd/freebsd/.xinitrc .xinitrc
+ln -s .emacs.d/folders folders
+chsh -s /usr/local/bin/fish enzuru
+git config --global user.name "Ahmed Khanzada"
+git config --global user.email "me@enzu.ru"
+git config --global core.editor "emacsclient"
+EOF
+
+cd /home/enzuru
 cp bsd/freebsd/rc.conf /etc/rc.conf
 cp bsd/freebsd/loader.conf /boot/loader.conf
 cp bsd/freebsd/sysctl.conf /etc/sysctl.conf
