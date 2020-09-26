@@ -1,0 +1,66 @@
+#!/bin/sh
+
+# Install nvidia driver via ports
+
+cd /usr/ports/x11/nvidia-driver/
+make install clean
+nvidia-xconfig
+
+# Packages
+
+pkg install autoconf
+pkg install awscli
+pkg install ansible
+pkg install bash
+pkg install bind-utils
+pkg install chromium
+pkg install ConsoleKit2
+pkg install dbus
+pkg install devel/py-game
+pkg install docker
+pkg install emacs
+pkg install firefox
+pkg install git
+pkg install gimp
+pkg install gotop
+pkg install htop
+pkg install hwstat
+pkg install irssi
+pkg install jq
+pkg install lang/python3 # install pip somehow
+pkg install links
+pkg install mercurial
+pkg install miniupnpc
+pkg install mongodb
+pkg install nano
+pkg install net/py-miniupnpc
+pkg install npm
+pkg install qemu
+pkg install redshift
+pkg install rxvt-unicode
+pkg install sbcl
+pkg install shells/fish
+pkg install sudo
+pkg install terraform
+pkg install texinfo
+pkg install the_silver_searcher
+pkg install unzip
+pkg install v41_compat
+pkg install x11-fonts/terminus-font
+pkg install x11-fonts/webfonts
+pkg install xorg-fonts
+pkg install xterm
+pkg install xorg
+pkg install xpdf
+pkg install zfstools
+pkg install zip
+
+# Git repos
+
+git clone git@github.com:enzuru/.emacs.d.git
+git clone git@github.com:enzuru/bsd.git
+ln -s bsd/freebsd/.Xresources .Xresources
+ln -s bsd/freebsd/.xinitrc .xinitrc
+cp bsd/freebsd/rc.conf /etc/rc.conf
+cp bsd/freebsd/loader.conf /boot/loader.conf
+cp bsd/freebsd/sysctl.conf /etc/sysctl.conf
