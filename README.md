@@ -1,6 +1,19 @@
 # bsd scripts & config files
 
-These are scripts and config files for setting up my [FreeBSD](https://freebsd.org) and [OpenBSD](https://openbsd.org) machines. I find the BSD operating systems to be the cleanest, most consistent, and most stable unix-like operating systems. ettings
+Setup scripts that build my ultimate \*nix workstation after a fresh [FreeBSD](https://freebsd.org) or [OpenBSD](https://openbsd.org) install:
+
+|                       |                         |
+| -------------         | -------------           |
+| Operating systems     | FreeBSD, OpenBSD        |
+| Programming languages | Common Lisp, Emacs Lisp |
+| Shell                 | fish                    |
+| Terminal              | rxvt-unicode            |
+| Version control       | git, mercurial          |
+| Search                | the\_silver\_searcher   |
+| IRC client            | irssi                   |
+| Font                  | terminus-font           |
+
+I find the BSD operating systems to be the cleanest, most consistent, and most stable \*nix operating systems.
 
 The highlight of my configuration is the [exwm window manager](https://github.com/ch11ng/exwm) which I use on both operating systems. exwm turns [Emacs](https://www.gnu.org/software/emacs/) into a full-blown [tiling window manager]( https://en.wikipedia.org/wiki/Tiling_window_manager) hackable in Lisp.
 
