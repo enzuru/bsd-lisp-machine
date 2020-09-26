@@ -1,4 +1,4 @@
-# bsd
+# bsd scripts & config files
 
 These are scripts and config files for setting up my FreeBSD and OpenBSD machines. The highlight is the [exwm window manager](https://github.com/ch11ng/exwm) which I use on both operating systems. I keep these files public as a learning resource.
 
