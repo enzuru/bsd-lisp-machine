@@ -1,4 +1,4 @@
-# lisp-machine
+# Lisp machine
 
 ![exwm on OpenBSD](screenshot.png "How I do my computing")
 
