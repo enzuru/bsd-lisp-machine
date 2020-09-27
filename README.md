@@ -18,11 +18,17 @@ These setup scripts build the ultimate Lisp workstation pictured above after a f
 | IRC client            | [irssi](https://irssi.org)                                                                                        |
 | Font                  | [terminus](http://terminus-font.sourceforge.net)                                                                  |
 
+## Why BSD?
+
 I use the BSD operating systems as a base because I find them to be the cleanest, most consistent, and most stable \*nix operating systems.
 
-The highlight of my configuration is the exwm window manager which I use on both operating systems. exwm turns Emacs into a full-blown [tiling window manager](https://en.wikipedia.org/wiki/Tiling_window_manager) hackable in Lisp. Furthermore, the [Sly](https://github.com/joaotavora/sly) Common Lisp IDE and a few implementations of Common Lisp are shipped.
+## What makes this unique?
+
+The highlight of my workstation is the exwm window manager. exwm turns Emacs into a full-blown [tiling window manager](https://en.wikipedia.org/wiki/Tiling_window_manager) hackable in Lisp. Furthermore, the [Sly](https://github.com/joaotavora/sly) Common Lisp IDE and a few implementations of Common Lisp are shipped.
 
 These scripts clone my [.emacs.d/](https://github.com/enzuru/.emacs.d) in order to provide a Lisp-based window manager and development environment. You should reference my [.emacs.d/enzuru/setup/enzuru-keys](https://github.com/enzuru/.emacs.d/blob/master/enzuru/setup/enzuru-keys.el) to learn how to control the system.
+
+## What are the differences between the OpenBSD and FreeBSD setups?
 
 I usually install OpenBSD on laptops and exotic architectures (PowerPC & SPARC64) while dual-booting FreeBSD on my gaming machine (this makes compiling and running `-CURRENT` a breeze). This is why my FreeBSD setup includes installing the Nvidia driver while excluding all "quality of life" settings for laptops.
 
