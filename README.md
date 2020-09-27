@@ -2,7 +2,7 @@
 
 Setup scripts that build my ultimate \*nix workstation after a fresh [FreeBSD](https://freebsd.org) or [OpenBSD](https://openbsd.org) install:
 
-|                       |                         |
+
 | -------------         | -------------           |
 | Operating systems     | FreeBSD, OpenBSD        |
 | Programming languages | Common Lisp, Emacs Lisp |
