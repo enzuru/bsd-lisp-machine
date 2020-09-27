@@ -1,17 +1,17 @@
 # bsd scripts & config files
 
-Setup scripts that build my ultimate \*nix workstation after a fresh [FreeBSD](https://freebsd.org) or [OpenBSD](https://openbsd.org) install:
+Setup scripts that build my ultimate \*nix workstation after a fresh FreeBSD or OpenBSD install:
 
-| Option                | Selection               |
-| -------------         | -------------           |
-| Operating systems     | FreeBSD, OpenBSD        |
-| Programming languages | Common Lisp, Emacs Lisp |
-| Shell                 | fish                    |
-| Terminal              | rxvt-unicode            |
-| Version control       | git, mercurial          |
-| Search                | the\_silver\_searcher   |
-| IRC client            | irssi                   |
-| Font                  | terminus-font           |
+| Category              | Selection                                                                                                |
+| ---                   | ---                                                                                                      |
+| Operating systems     | [FreeBSD](https://freebsd.org), [OpenBSD](https://openbsd.org)                                           |
+| Programming languages | [Common Lisp](https://lisp-lang.org), [Emacs Lisp](https://www.gnu.org/software/emacs/manual/eintr.html) |
+| Shell                 | [fish](https://fishshell.com)                                                                            |
+| Terminal              | [rxvt-unicode](https://wiki.archlinux.org/index.php/Rxvt-unicode)                                        |
+| Version control       | [git](https://git-scm.com/), [mercurial](https://www.mercurial-scm.org/)                                 |
+| Search                | [the\_silver\_searcher](https://geoff.greer.fm/ag/)                                                      |
+| IRC client            | [irssi](https://irssi.org)                                                                               |
+| Font                  | [terminus](http://terminus-font.sourceforge.net)                                                         |
 
 I find the BSD operating systems to be the cleanest, most consistent, and most stable \*nix operating systems.
 
