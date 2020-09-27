@@ -2,7 +2,11 @@
 
 ![exwm on OpenBSD](screenshot.png "How I do my computing")
 
+## What is this?
+
 These setup scripts build the ultimate Lisp workstation pictured above after a fresh FreeBSD or OpenBSD install. This is how I do most of my computing. You can adapt these setup scripts to help build your own Lisp workstation. This style of computing is a throwback to the ancient [Lisp machines](https://en.wikipedia.org/wiki/Lisp_machine).
+
+## What software does it use?
 
 | Category              | Selection                                                                                                         |
 | ---                   | ---                                                                                                               |
