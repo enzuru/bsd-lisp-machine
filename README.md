@@ -1,8 +1,8 @@
-# bsd workstation
+# lisp-machine
 
-![exwm on OpenBSD](screenshot.png "How I do my work")
+![exwm on OpenBSD](screenshot.png "How I do my computing")
 
-Setup scripts that build my ultimate \*nix workstation after a fresh FreeBSD or OpenBSD install:
+These setup scripts build the ultimate Lisp workstation pictured above after a fresh FreeBSD or OpenBSD install. This is how I do most of my computing.
 
 | Category              | Selection                                                                                                |
 | ---                   | ---                                                                                                      |
@@ -15,13 +15,15 @@ Setup scripts that build my ultimate \*nix workstation after a fresh FreeBSD or 
 | IRC client            | [irssi](https://irssi.org)                                                                               |
 | Font                  | [terminus](http://terminus-font.sourceforge.net)                                                         |
 
-I find the BSD operating systems to be the cleanest, most consistent, and most stable \*nix operating systems.
+I use the BSD operating systems as a base because I find them to be the cleanest, most consistent, and most stable \*nix operating systems.
 
-The highlight of my configuration is the [exwm window manager](https://github.com/ch11ng/exwm) which I use on both operating systems. exwm turns [Emacs](https://www.gnu.org/software/emacs/) into a full-blown [tiling window manager]( https://en.wikipedia.org/wiki/Tiling_window_manager) hackable in Lisp.
+The highlight of my configuration is the [exwm window manager](https://github.com/ch11ng/exwm) which I use on both operating systems. exwm turns [Emacs](https://www.gnu.org/software/emacs/) into a full-blown [tiling window manager](https://en.wikipedia.org/wiki/Tiling_window_manager) hackable in Lisp. Furthermore, the [Sly](https://github.com/joaotavora/sly) Common Lisp IDE and a few implementations of Common Lisp are shipped.
+
+These scripts clone my [.emacs.d/](https://github.com/enzuru/.emacs.d) in order to provide a Lisp-based window manager and development environment. File management is done with [Sunrise Commander](https://medium.com/@enzuru/sunrise-commander-an-orthodox-file-manager-for-emacs-2f92fd08ac9e). You should reference my [.emacs.d/enzuru/setup/enzuru-keys](https://github.com/enzuru/.emacs.d/blob/master/enzuru/setup/enzuru-keys.el) to learn how to control the system.
 
 I usually install OpenBSD on laptops and exotic architectures (PowerPC & SPARC64) while dual-booting FreeBSD on my gaming machine (this makes compiling and running `-CURRENT` a breeze). This is why my FreeBSD setup includes installing the Nvidia driver while excluding all "quality of life" settings for laptops.
 
-Also, when I'm on an OpenBSD machine most of my programming is in Common Lisp and Emacs Lisp. When I'm on FreeBSD, I'm  usually hacking in Python, Ruby, and JavaScript, as well as doing DevOps work with tools like Terraform and Kubernetes. You can clearly see this difference in the packages that I choose to install on each operating system.
+Also, when I'm on an OpenBSD machine most of my programming is in Common Lisp and Emacs Lisp. When I'm on FreeBSD, I may also hack in Python, Ruby, and JavaScript, as well as do DevOps work with tools like Terraform and Kubernetes. You can clearly see this difference in the packages that I choose to install on each operating system.
 
 I've also added to FreeBSD some cool TCP/IP optimizations that I found on a blog post that is no longer online.
 
