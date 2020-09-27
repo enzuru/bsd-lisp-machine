@@ -1,4 +1,4 @@
-# bsd scripts
+# bsd workstation
 
 ![exwm on OpenBSD](screenshot.png "How I do my work")
 
