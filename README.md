@@ -10,7 +10,7 @@ These setup scripts build the ultimate Lisp workstation pictured above after a f
 | Programming languages | [Common Lisp](https://lisp-lang.org), [Emacs Lisp](https://www.gnu.org/software/emacs/manual/eintr.html) |
 | Shell                 | [fish](https://fishshell.com)                                                                            |
 | Text editor           | [Emacs](https://www.gnu.org/software/emacs/)                                                             |
-| Window manager        | [exwm window manager](https://github.com/ch11ng/exwm)                                                    |
+| Window manager        | [exwm](https://github.com/ch11ng/exwm)                                                                   |
 | Terminal              | [rxvt-unicode](https://wiki.archlinux.org/index.php/Rxvt-unicode)                                        |
 | Version control       | [git](https://git-scm.com/), [mercurial](https://www.mercurial-scm.org/)                                 |
 | Search                | [the\_silver\_searcher](https://geoff.greer.fm/ag/)                                                      |
