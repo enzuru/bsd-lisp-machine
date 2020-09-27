@@ -1,5 +1,7 @@
 # bsd scripts
 
+![exwm on OpenBSD](screenshot.png "How I do my work")
+
 Setup scripts that build my ultimate \*nix workstation after a fresh FreeBSD or OpenBSD install:
 
 | Category              | Selection                                                                                                |

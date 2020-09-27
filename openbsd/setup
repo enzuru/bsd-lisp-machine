@@ -17,9 +17,10 @@ pkg_add htop
 pkg_add irssi
 pkg_add links
 pkg_add mercurial
-pkg_add rxvt-unicode
 pkg_add pianobar
+pkg_add rxvt-unicode
 pkg_add sbcl
+pkg_add screenfetch
 pkg_add sudo
 pkg_add the_silver_searcher
 pkg_add terminus-font
