@@ -67,9 +67,9 @@ cd
 rm -rf .emacs.d/
 git clone --recurse-submodules -j8 git@github.com:enzuru/.emacs.d.git
 git clone git@github.com:enzuru/org.git
-git clone git@github.com:enzuru/bsd.git
-ln -s bsd/freebsd/.Xresources .Xresources
-ln -s bsd/freebsd/.xinitrc .xinitrc
+git clone git@github.com:enzuru/lisp-machine.git
+ln -s lisp-machine/freebsd/.Xresources .Xresources
+ln -s lisp-machine/freebsd/.xinitrc .xinitrc
 ln -s .emacs.d/folders folders
 chsh -s /usr/local/bin/fish enzuru
 git config --global user.name "Ahmed Khanzada"
