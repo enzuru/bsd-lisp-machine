@@ -22,6 +22,7 @@ urxvtd &
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 sysctl hw.snd.default_unit=9
+mixer -f /dev/mixer4 mic 100
 
 # Start Emacs
 exec /usr/local/bin/emacs
