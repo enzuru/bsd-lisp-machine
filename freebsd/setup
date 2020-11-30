@@ -1,73 +1,76 @@
 #!/bin/sh
 
-# Install nvidia driver via ports
+# Install -Y nvidia driver via ports
 
-cd /usr/ports/x11/nvidia-driver/
-make install clean
-nvidia-xconfig
+#cd /usr/ports/x11/nvidia-driver/
+#make install -y clean
+#nvidia-xconfig
 
 # Packages
 
 cd
-pkg install autoconf
-pkg install awscli
-pkg install ansible
-pkg install bash
-pkg install bind-utils
-pkg install chromium
-pkg install ConsoleKit2
-pkg install ccl
-pkg install dbus
-pkg install devel/py-game
-pkg install docker
-pkg install emacs
-pkg install firefox
-pkg install gcc
-pkg install git
-pkg install gimp
-pkg install gotop
-pkg install helm
-pkg install htop
-pkg install hwstat
-pkg install irssi
-pkg install jq
-pkg install kubectl
-pkg install lang/python3 # install pip somehow
-pkg install links
-pkg install mercurial
-pkg install miniupnpc
-pkg install nano
-pkg install net/py-miniupnpc
-pkg install npm
-pkg install qemu
-pkg install redshift
-pkg install ruby
-pkg install rxvt-unicode
-pkg install sbcl
-pkg install shells/fish
-pkg install sudo
-pkg install terraform
-pkg install texinfo
-pkg install the_silver_searcher
-pkg install unzip
-pkg install v41_compat
-pkg install x11-fonts/terminus-font
-pkg install x11-fonts/webfonts
-pkg install xorg-fonts
-pkg install xterm
-pkg install xorg
-pkg install xpdf
-pkg install zfstools
-pkg install zip
+pkg install -y autoconf
+pkg install -y awscli
+pkg install -y ansible
+pkg install -y bash
+pkg install -y bind-utils
+pkg install -y chromium
+pkg install -y ConsoleKit2
+pkg install -y ccl
+pkg install -y dbus
+pkg install -y devel/py-game
+pkg install -y devel/ruby-gems
+pkg install -y docker
+pkg install -y emacs
+pkg install -y firefox
+pkg install -y gcc
+pkg install -y git
+pkg install -y gimp
+pkg install -y gotop
+pkg install -y helm
+pkg install -y htop
+pkg install -y hwstat
+pkg install -y irssi
+pkg install -y jq
+pkg install -y kubectl
+pkg install -y lang/python3 # install -y pip somehow
+pkg install -y links
+pkg install -y mercurial
+pkg install -y miniupnpc
+pkg install -y nano
+pkg install -y net/py-miniupnpc
+pkg install -y npm
+pkg install -y qemu
+pkg install -y redshift
+pkg install -y ruby
+pkg install -y rxvt-unicode
+pkg install -y sbcl
+pkg install -y shells/fish
+pkg install -y sudo
+pkg install -y terraform
+pkg install -y texinfo
+pkg install -y the_silver_searcher
+pkg install -y unzip
+pkg install -y v41_compat
+pkg install -y x11-fonts/terminus-font
+pkg install -y x11-fonts/webfonts
+pkg install -y xorg-fonts
+pkg install -y xterm
+pkg install -y xorg
+pkg install -y xpdf
+pkg install -y zfstools
+pkg install -y zip
+
+gem install irb
 
 # Git repos
 
 sudo -i -u enzuru sh << EOF
 cd
 rm -rf .emacs.d/
-git clone --recurse-submodules -j8 git@github.com:enzuru/.emacs.d.git
-git clone git@github.com:enzuru/org.git
-git clone git@github.com:enzuru/lisp-machine.git
+git clone --recurse-submodules -j8 https://github.com/enzuru/.emacs.d.git
+git clone https://github.com/enzuru/org.git
+git clone https://github.com/enzuru/lisp-machine.git
 ln -s lisp-machine/freebsd/.Xresources .Xresources
 ln -s lisp-machine/freebsd/.xinitrc .xinitrc
 ln -s .emacs.d/folders folders
@@ -78,9 +81,9 @@ git config --global core.editor "emacsclient"
 EOF
 
 cd /home/enzuru
-cp bsd/freebsd/rc.conf /etc/rc.conf
-cp bsd/freebsd/loader.conf /boot/loader.conf
-cp bsd/freebsd/sysctl.conf /etc/sysctl.conf
-# cp bsd/freebsd/xorg.conf /etc/X11/xorg.conf
+cp lisp-machine/freebsd/rc.conf /etc/rc.conf
+cp lisp-machine/freebsd/loader.conf /boot/loader.conf
+cp lisp-machine/freebsd/sysctl.conf /etc/sysctl.conf
+cp lisp-machine/freebsd/xorg.conf /etc/X11/xorg.conf
 
 # add enzuru to wheel and setup sudo
