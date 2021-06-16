@@ -32,9 +32,9 @@ pkg_add wget
 sudo -i -u enzuru sh << EOF
 cd
 rm -rf .emacs.d/
-git clone --recurse-submodules -j8 git@github.com:enzuru/.emacs.d.git
-git clone git@github.com:enzuru/org.git
-git clone git@github.com:enzuru/lisp-machine.git
+git clone --recurse-submodules -j8 https://github.com/enzuru/.emacs.d.git
+git clone https://github.com/enzuru/org.git
+git clone https://github.com/enzuru/lisp-machine.git
 ln -s lisp-machine/openbsd/.Xresources .Xresources
 ln -s lisp-machine/openbsd/.xsession .xsession
 ln -s .emacs.d/folders folders
