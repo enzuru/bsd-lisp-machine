@@ -1,6 +1,12 @@
-# Lisp machine
+# BSD Lisp machine
 
 ![exwm on OpenBSD](screenshot.png "How I do my computing")
+
+## Warning
+
+The maturity of [Guix System](https://guix.gnu.org) has basically made this setup obsolete. If you want a true operating system almost completely hacakable in Lisp, please move on to that distro.
+
+I am attempting to document setting up this "fullstack Lisp" experience on [my GitHub home page](https://www.github.com/enzuru).
 
 ## What is this?
 
