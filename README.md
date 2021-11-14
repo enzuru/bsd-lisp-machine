@@ -10,7 +10,7 @@ I am attempting to document setting up this "fullstack Lisp" experience on [my G
 
 ## What is this?
 
-These setup scripts build the ultimate Lisp workstation pictured above after a fresh FreeBSD or OpenBSD install which is how I do most of my computing. You can adapt these setup scripts to help build your own Lisp workstation; you must modify these scripts because they are designed specifically for my own workstations, but I leave them as FOSS so that users can learn about advanced computing styles. This style of computing is a throwback to the ancient [Lisp machines](https://en.wikipedia.org/wiki/Lisp_machine).
+These setup scripts build a BSD-based Lisp workstation pictured above after a fresh FreeBSD or OpenBSD install which is how I do most of my computing. You can adapt these setup scripts to help build your own Lisp workstation; you must modify these scripts because they are designed specifically for my own workstations, but I leave them as FOSS so that users can learn about advanced computing styles. This style of computing is a throwback to the ancient [Lisp machines](https://en.wikipedia.org/wiki/Lisp_machine).
 
 ## What software does it use?
 
