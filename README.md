@@ -4,13 +4,13 @@
 
 ## Warning
 
-The maturity of [Guix System](https://guix.gnu.org) has basically made this setup obsolete. If you want a true operating system almost completely hacakable in Lisp, please move on to that distro.
+The maturity of [GNU Guix System](https://guix.gnu.org) has basically made this setup obsolete. If you want a true operating system almost completely hacakable in Lisp, please move on to that distro.
 
 I am attempting to document setting up this "fullstack Lisp" experience on [my GitHub home page](https://www.github.com/enzuru).
 
 ## What is this?
 
-These setup scripts build a BSD-based Lisp workstation pictured above after a fresh FreeBSD or OpenBSD install which is how I do most of my computing. You can adapt these setup scripts to help build your own Lisp workstation; you must modify these scripts because they are designed specifically for my own workstations, but I leave them as FOSS so that users can learn about advanced computing styles. This style of computing is a throwback to the ancient [Lisp machines](https://en.wikipedia.org/wiki/Lisp_machine).
+These setup scripts build a BSD-based Lisp workstation pictured above after a fresh FreeBSD or OpenBSD install which is how I used to do most of my computing before GNU Guix System. You can adapt these setup scripts to help build your own Lisp workstation; you must modify these scripts because they are designed specifically for my own workstations, but I leave them as FOSS so that users can learn about advanced computing styles. This style of computing is a throwback to the ancient [Lisp machines](https://en.wikipedia.org/wiki/Lisp_machine).
 
 ## What software does it use?
 
@@ -36,7 +36,7 @@ I use the BSD operating systems as a base because I find them to be the cleanest
 
 The highlight of my workstation is the exwm window manager. exwm turns Emacs into a full-blown [tiling window manager](https://en.wikipedia.org/wiki/Tiling_window_manager) hackable in Lisp. Furthermore, the [Sly](https://github.com/joaotavora/sly) Common Lisp IDE and a few implementations of Common Lisp are shipped.
 
-These scripts clone my [.emacs.d/](https://github.com/enzuru/.emacs.d) in order to provide a Lisp-based window manager and development environment. You should reference my [.emacs.d/enzuru/setup/enzuru-keys](https://github.com/enzuru/.emacs.d/blob/master/enzuru/setup/enzuru-keys.el) to learn how to control the system.
+These scripts clone my [.emacs.d/](https://github.com/enzuru/.emacs.d) in order to provide a Lisp-based window manager and development environment. You should reference my [.emacs.d/enzuru/setup/enzuru-keys.el](https://github.com/enzuru/.emacs.d/blob/master/enzuru/setup/enzuru-keys.el) to learn how to control the system.
 
 ## What are the differences between the OpenBSD and FreeBSD setups?
 
